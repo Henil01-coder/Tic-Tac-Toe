@@ -143,7 +143,7 @@ function checkWin($board, $player) {
             display: inline-block;
             text-decoration: none;
             color: white;
-            background: #2f3542;
+            background: #6484c9;
             padding: 12px 30px;
             border-radius: 8px;
             font-weight: 600;
@@ -197,8 +197,8 @@ function checkWin($board, $player) {
             <a href="?reset=1" class="btn-reset">Play Again</a>
         </div>
     <?php else: ?>
-        <div style="margin-top: 20px;">
-            <a href="?reset=1" style="color: #747d8c; text-decoration: none; font-size: 0.9rem;">Reset Board</a>
+        <div style="margin-top: 20px; background-color: black; border: 1px black; border-radius: 2cm; padding: 2px;">
+            <a href="?reset=1" style="color: #ffffff; text-decoration: none; font-size: 0.9rem;">Reset Board</a>
         </div>
     <?php endif; ?>
 
